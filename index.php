@@ -20,17 +20,31 @@ if(isset($_POST["submit"])) {
             $getSourceAddr = $parts[2];
             $getDestinationAddr = parse_url($parts[6], PHP_URL_HOST);
             
-            $result = uploadToArray($sourceAddrArray,$getSourceAddr);
-            if($result != 0)
-            {
-                $sourceAddrArray = $result;
-            }
+            $exclude = "10.112.0.53";
 
             $result = uploadToArray($destinationAddrArray,$getDestinationAddr);
             if($result != 0)
             {
-                $destinationAddrArray = $result;
+                if($result[0] == $exclude)
+                {
+                    $result = uploadToArray($sourceAddrArray,$getSourceAddr);
+                    if($result != 0)
+                    {
+                        $sourceAddrArray = $result;
+                    }
+                }
+                //$destinationAddrArray = $result;
             }
+
+        
+
+            // var_dump($result);
+            // exit;
+            // $result = uploadToArray($sourceAddrArray,$getSourceAddr);
+            // if($result != 0)
+            // {
+            //     $sourceAddrArray = $result;
+            // }
 
             $lineCount +=1;
         }

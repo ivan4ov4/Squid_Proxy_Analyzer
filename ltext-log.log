@@ -1,0 +1,10 @@
+1706566509.145      6 10.20.0.145 TCP_MISS/200 460 HEAD http://download.windowsupdate.com/d/msdownload/update/software/defu/2024/01/am_slim_delta_patch_1.403.2876.0_e245e364b3ced14731d6f54508d2db9ba2f428e6.exe - DIRECT/212.39.68.32 application/octet-stream
+1706566509.264     92 10.20.0.145 TCP_MISS/200 292900 GET http://download.windowsupdate.com/d/msdownload/update/software/defu/2024/01/am_slim_delta_patch_1.403.2876.0_e245e364b3ced14731d6f54508d2db9ba2f428e6.exe - DIRECT/212.39.68.16 application/octet-stream
+1706566509.276      7 10.20.0.145 TCP_MISS/200 461 HEAD http://download.windowsupdate.com/d/msdownload/update/software/defu/2024/01/am_slim_delta_patch_1.403.2818.0_317f8be677f525dab008e3f2fffdb5c95f38a51c.exe - DIRECT/212.39.68.32 application/octet-stream
+1706566510.221     42 10.20.2.140 TCP_MISS/200 284 GET http://10.112.0.53/fpoll? - DIRECT/10.112.0.53 -
+1706566510.358     46 10.20.0.145 TCP_MISS/200 405941 GET http://download.windowsupdate.com/d/msdownload/update/software/defu/2024/01/am_slim_delta_patch_1.403.2818.0_317f8be677f525dab008e3f2fffdb5c95f38a51c.exe - DIRECT/212.39.68.16 application/octet-stream
+1706566510.368      0 172.20.0.51 TCP_DENIED/403 1444 CONNECT 10.112.0.53:443 - NONE/- text/html
+1706566510.370      6 10.20.0.145 TCP_MISS/200 462 HEAD http://download.windowsupdate.com/d/msdownload/update/software/defu/2024/01/am_slim_delta_patch_1.403.2807.0_ae4d99cae493772b8747751b20d4fc02d9374592.exe - DIRECT/212.39.68.32 application/octet-stream
+1706566510.376      4 172.20.0.51 TCP_DENIED/403 1452 CONNECT 217.145.164.251:443 - NONE/- text/html
+1706566510.607    200 10.20.0.145 TCP_MISS/200 405446 GET http://download.windowsupdate.com/d/msdownload/update/software/defu/2024/01/am_slim_delta_patch_1.403.2807.0_ae4d99cae493772b8747751b20d4fc02d9374592.exe - DIRECT/212.39.68.16 application/octet-stream
+1706566510.869    226 172.20.0.51 TCP_DENIED/403 1452 CONNECT 217.145.164.251:443 - NONE/- text/html  
